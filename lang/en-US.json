@@ -1,0 +1,68 @@
+{
+  "languageTag": "en-US",
+  "fileDescription": "Strings for Draw Background Plugin",
+  "text": {
+    "plugins": {
+      "massivecube_drawbackground": {
+        "name": "Draw Background",
+        "description": "Simple drawing background with color.",
+        "help-url": "https://github.com/armandoalonso/c3IDE",
+        "properties": {
+          "background-color": {
+            "name": "Background Color",
+            "desc": "The Background-Color."
+          },
+          "grn1": {
+            "name": "Support the Developer",
+            "desc": "Support the Developer"
+          },
+          "website": {
+            "name": "Donate Website",
+            "desc": "Please Donate :)",
+            "link-text": "Donate the developer"
+          }
+        },
+        "aceCategories": {
+          "settings": "Settings",
+          "info": "Info"
+        },
+        "conditions": {},
+        "actions": {
+          "changebackgroundcolor": {
+            "list-name": "Change Background-Color",
+            "display-text": "Change background-color to {0}, {1}, {2}",
+            "description": "Change Background-Color",
+            "params": {
+              "red": {
+                "name": "Red",
+                "desc": "Red"
+              },
+              "green": {
+                "name": "Green",
+                "desc": "Green"
+              },
+              "blue": {
+                "name": "Blue",
+                "desc": "Blue"
+              }
+            }
+          }
+        },
+        "expressions": {
+          "getred": {
+            "translated-name": "GetRed",
+            "description": "Get red color"
+          },
+          "getgreen": {
+            "translated-name": "GetGreen",
+            "description": "Get green color"
+          },
+          "getblue": {
+            "translated-name": "GetBlue",
+            "description": "Get blue color"
+          }
+        }
+      }
+    }
+  }
+}

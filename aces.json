@@ -1,0 +1,51 @@
+{
+  "settings": {
+    "conditions": [],
+    "actions": [
+      {
+        "id": "changebackgroundcolor",
+        "scriptName": "Changebackgroundcolor",
+        "highlight": false,
+        "params": [
+          {
+            "id": "red",
+            "type": "number",
+            "initialValue": "0.5"
+          },
+          {
+            "id": "green",
+            "type": "number",
+            "initialValue": "0.5"
+          },
+          {
+            "id": "blue",
+            "type": "number",
+            "initialValue": "0.5"
+          }
+        ]
+      }
+    ],
+    "expressions": []
+  },
+  "info": {
+    "conditions": [],
+    "actions": [],
+    "expressions": [
+      {
+        "id": "getred",
+        "expressionName": "GetRed",
+        "returnType": "number"
+      },
+      {
+        "id": "getgreen",
+        "expressionName": "GetGreen",
+        "returnType": "number"
+      },
+      {
+        "id": "getblue",
+        "expressionName": "GetBlue",
+        "returnType": "number"
+      }
+    ]
+  }
+}
